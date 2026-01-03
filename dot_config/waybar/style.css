@@ -1,0 +1,141 @@
+@import "../omarchy/current/theme/waybar.css";
+
+@define-color border-color rgba(255,255,255,0.1);
+@define-color tooltip-bg rgba(0, 0, 0, 0.6);
+
+* {
+    color: @foreground;
+    margin: 0;
+    padding: 0;
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 12px;
+    background: none;
+    font-weight: 700;
+    transition-property: background;
+    transition-duration: 0.5s;
+    color: #f2f2f2;
+}
+
+#waybar.top > box.horizontal {
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid @border-color;
+    border-radius: 10px;
+    /*padding-top: 4px;*/
+    /*padding-bottom: 4px;*/
+}
+
+.modules-left {
+    margin-left: 8px;
+}
+
+.modules-right {
+    margin-right: 8px;
+}
+
+#workspaces button {
+    all: initial;
+    padding: 0 6px;
+    margin: 0;
+}
+
+#workspaces button:not(:first-child) {
+    margin-left: 2pt;
+}
+
+#workspaces button.empty {
+    opacity: 0.5;
+}
+
+#custom-color-picker,
+#custom-swaync,
+#tray,
+#cpu,
+#battery,
+#network,
+#bluetooth,
+#pulseaudio,
+#custom-omarchy,
+#custom-screenrecording-indicator,
+#memory,
+#custom-update,
+#custom-power {
+    margin-left: 10px;
+}
+
+#custom-color-picker {
+    min-width: 14px;
+}
+
+#network {
+    min-width: 12px;
+}
+
+#custom-update {
+    margin-right: 7px;
+}
+
+#cpu,
+#memory {
+    min-width: 35px;
+}
+
+#memory {
+    color: #fab387;
+}
+
+#cpu {
+    color: #fa8787;
+}
+
+#pulseaudio {
+    margin-right: 7px;
+}
+
+#custom-swaync {
+    margin-right: 6px;
+    font-size: 14px;
+}
+
+#custom-power {
+    margin-right: 6px;
+    margin-left: 8px;
+}
+
+#custom-expand-icon {
+    margin-right: 7px;
+}
+
+tooltip {
+    padding: 2px;
+    background: @tooltip-bg;
+}
+
+#tray window {
+    background: @tooltip-bg;
+}
+
+#custom-update {
+    font-size: 10px;
+}
+
+#mpris {
+    color: #a6e3a1;
+    border-radius: 12px;
+    margin-left: 15px;
+    padding: 4px 8px;
+    background: #222;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+#custom-screenrecording-indicator {
+    min-width: 12px;
+    margin-left: 8.75px;
+    font-size: 10px;
+}
+
+#custom-screenrecording-indicator.active {
+    color: #a55555;
+}

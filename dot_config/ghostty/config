@@ -1,0 +1,12 @@
+config-file = ~/.config/omarchy/current/theme/ghostty.conf
+
+font-family = GeistMono Nerd Font
+background-opacity = 0.1
+
+cursor-style = bar
+cursor-style-blink = false
+
+term = xterm-256color
+
+shell-integration = zsh
+shell-integration-features = no-cursor
