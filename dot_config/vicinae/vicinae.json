@@ -4,7 +4,7 @@
   "faviconService": "twenty",
   "font": {
     "normal": "Monospace",
-    "size": 11
+    "size": 10
   },
   "keybinding": "default",
   "keybinds": {},
@@ -13,7 +13,7 @@
     "searchFiles": false
   },
   "theme": {
-    "name": "tokyo-night"
+    "name": "vicinae-dark"
   },
   "window": {
     "csd": true,
