@@ -1,23 +1,24 @@
 {
-  "closeOnFocusLoss": true,
-  "considerPreedit": false,
-  "faviconService": "twenty",
-  "font": {
-    "normal": "Monospace",
-    "size": 10
-  },
-  "keybinding": "default",
-  "keybinds": {},
-  "popToRootOnClose": true,
-  "rootSearch": {
-    "searchFiles": false
-  },
-  "theme": {
-    "name": "vicinae-dark"
-  },
-  "window": {
-    "csd": true,
-    "opacity": 0.9,
-    "rounding": 10
-  }
+    "closeOnFocusLoss": true,
+    "considerPreedit": false,
+    "faviconService": "twenty",
+    "font": {
+        "normal": "Roboto",
+        "size": 10
+    },
+    "keybinding": "default",
+    "keybinds": {
+    },
+    "popToRootOnClose": true,
+    "rootSearch": {
+        "searchFiles": false
+    },
+    "theme": {
+        "name": "vicinae-dark"
+    },
+    "window": {
+        "csd": true,
+        "opacity": 0.9,
+        "rounding": 10
+    }
 }
