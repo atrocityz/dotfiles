@@ -58,12 +58,14 @@
 #custom-screenrecording-indicator,
 #memory,
 #custom-update,
+#disk,
 #custom-power {
-    margin-left: 10px;
+    margin-left: 13px;
 }
 
 #custom-color-picker {
     min-width: 14px;
+    margin-left: 11px;
 }
 
 #network {
@@ -75,8 +77,14 @@
 }
 
 #cpu,
-#memory {
+#memory,
+#disk {
     min-width: 35px;
+    margin-left: 10px;
+}
+
+#disk {
+    margin-left: 12px;
 }
 
 #memory {
@@ -85,6 +93,10 @@
 
 #cpu {
     color: #fa8787;
+}
+
+#disk {
+    color: #28c9af;
 }
 
 #pulseaudio {
@@ -98,7 +110,7 @@
 
 #custom-power {
     margin-right: 6px;
-    margin-left: 8px;
+    margin-left: 10px;
 }
 
 #custom-expand-icon {

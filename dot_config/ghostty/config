@@ -1,6 +1,7 @@
 config-file = ~/.config/omarchy/current/theme/ghostty.conf
 
-font-family = GeistMono Nerd Font
+# font-family = GeistMono Nerd Font
+font-family = DejaVu Sans Mono
 background-opacity = 0.1
 
 cursor-style = bar

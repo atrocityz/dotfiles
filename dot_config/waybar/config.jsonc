@@ -16,6 +16,7 @@
     "hyprland/language",
     "cpu",
     "memory",
+    "disk",
     "network",
     "pulseaudio",
     "tray",
@@ -65,6 +66,10 @@
     "format": " {}%",
     "on-click": "tilix -e btop",
     "interval": 1,
+  },
+  "disk": {
+    "interval": 5,
+    "format": " {}%",
   },
   "custom/color-picker": {
     "format": "",
