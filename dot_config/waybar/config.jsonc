@@ -2,6 +2,7 @@
   "reload_style_on_change": true,
   "layer": "top",
   "position": "top",
+  "height": 24,
   "margin-top": 2,
   "margin-bottom": 3,
   "margin-left": 6,

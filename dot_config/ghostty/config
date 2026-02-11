@@ -2,12 +2,12 @@ config-file = ~/.config/omarchy/current/theme/ghostty.conf
 
 # font-family = GeistMono Nerd Font
 font-family = DejaVu Sans Mono
-background-opacity = 0.1
+theme = Chalk
+background-opacity = 0.6
 
 cursor-style = bar
 cursor-style-blink = false
 
-term = xterm-256color
-
 shell-integration = zsh
 shell-integration-features = no-cursor
+confirm-close-surface = false

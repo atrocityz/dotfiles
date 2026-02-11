@@ -7,7 +7,7 @@
     color: @foreground;
     margin: 0;
     padding: 0;
-    font-family: "JetBrainsMono Nerd Font";
+    font-family: 'JetBrainsMono Nerd Font';
     font-size: 12px;
     background: none;
     font-weight: 700;
@@ -20,8 +20,6 @@
     background: rgba(0, 0, 0, 0.4);
     border: 1px solid @border-color;
     border-radius: 10px;
-    /*padding-top: 4px;*/
-    /*padding-bottom: 4px;*/
 }
 
 .modules-left {
@@ -134,7 +132,8 @@ tooltip {
     color: #a6e3a1;
     border-radius: 12px;
     margin-left: 15px;
-    padding: 4px 8px;
+    padding-left: 8px;
+    padding-right: 8px;
     background: #222;
 }
 
